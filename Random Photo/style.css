@@ -1,0 +1,34 @@
+body {
+  background: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  padding: 1rem 11rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 8px;
+  background: #3c5a99;
+  color: #333;
+}
+
+#image {
+  height: 80vh;
+  width: 50vh;
+}
+
+button:hover {
+  background: #3c5a80;
+}
